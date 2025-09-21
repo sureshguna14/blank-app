@@ -15,7 +15,7 @@ st.set_page_config(page_title="Template Automation Tool", layout="wide")
 st.sidebar.markdown("""
 <div style='background:#000;border-radius:12px;padding:18px 10px;margin-bottom:1em;text-align:center;'>
     <img src='https://img.icons8.com/fluency/96/excel.png' width='60'/><br>
-    <span style='color:#bdbdbd;font-size:1.3rem;font-weight:600;'>SVC_CoE SMAX DLT Automation</span>
+    <span style='color:#bdbdbd;font-size:1.3rem;font-weight:600;'>Action Menu</span>
 </div>
 """, unsafe_allow_html=True)
 page = st.sidebar.radio("Navigation", ["Update Template", "Mapping Template", "Picklist Values"], index=0)
@@ -25,7 +25,7 @@ st.sidebar.info("Automate, validate, and map your Excel templates with a modern 
 # --- Main Header ---
 st.markdown(""" 
 <style>
-body, .main, .block-container {
+body, .main, .block-container {coe
     background-color: #0a174e !important; /* dark blue */
 }
 .main-title {
